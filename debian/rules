@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_installexamples:
+	dh_installexamples
+	sed -i "s,require('\.\./'),require('deep-is'),g" debian/node-deep-is/usr/share/doc/node-deep-is/examples/cmp.js

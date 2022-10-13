@@ -1,0 +1,45 @@
+node-deep-is (0.1.4-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-deep-is: Add Multi-Arch: foreign.
+
+  [ Bastien Roucariès ]
+  * Drop nodejs depends
+  * Ship example
+  * Bump standard version (no changes)
+  * New upstream version (cosmetic changes on package.json)
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 03 Oct 2021 10:48:52 +0000
+
+node-deep-is (0.1.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Enable upstream test using tape
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 May 2020 16:47:55 +0200
+
+node-deep-is (0.1.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #840301)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 10 Oct 2016 17:28:34 +0530
